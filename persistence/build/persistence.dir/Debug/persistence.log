@@ -1,4 +1,0 @@
-﻿  main.cpp
-J:\UCSP\(VI)_EDA\Practica\Persistencia\persistence\source\persistence\partial_directed_graph.hpp(76): warning C4715: 'ADE::Persistence::PartialNode<int>::get_data': no todas las rutas de acceso de control devuelven un valor
-J:\UCSP\(VI)_EDA\Practica\Persistencia\persistence\source\persistence\partial_directed_graph.hpp(173): warning C4715: 'ADE::Persistence::PartialNode<int>::operator[]': no todas las rutas de acceso de control devuelven un valor
-  persistence.vcxproj -> J:\UCSP\(VI)_EDA\Practica\Persistencia\persistence\build\Debug\persistence.exe
