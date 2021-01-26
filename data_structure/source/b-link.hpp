@@ -23,6 +23,7 @@ class BLinkTree {
 		  values = new data_type[B - 1];
 		  childs = new BNode*[B];
 		  for (int i = 0; i < B; ++i) {childs[i] = NULL;}
+		  for (int i = 0; i < B-1; ++i) { values[i] = 0; }
 	  }
 
 	  bool leaf;
@@ -193,7 +194,7 @@ class BLinkTree {
 	  }
 
 	  if ((*ptr)->size == B - 1) {// si es necesario hacer split
-		  std::cout << "Time to split" << std::endl;
+		  //std::cout << "Time to split" << std::endl;
 		  split(ptr,ptr_dad,value);
 		  (*ptr)->values[(*ptr)->size] = value;
 		  (*ptr)->size++;
@@ -234,7 +235,7 @@ class BLinkTree {
 	  std::cout << std::endl << std::endl;;
   }
 
- private:
+ //private:
   BNode* root;
 };
 
